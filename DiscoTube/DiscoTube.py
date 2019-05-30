@@ -4,7 +4,7 @@ client = discord.Client
 
 @client.event
 async def on_ready():
-    print("GET READY TO DISCO)
+    print("GET READY TO DISCO")
     await client.change_presence(activity = discord.Game(name = "Disco Dancing"))
 
 @client.event
